@@ -1,57 +1,64 @@
-from pathlib import Path
+# 🛍️ AMK-one Webshop
 
-content = """# AMK-one Webshop
+AMK-one is een moderne online webshop voor kleding, sneakers en accessoires.  
+De website is gebouwd met HTML, CSS en JavaScript.
 
-AMK-one is een moderne online webshop voor kleding, sneakers en accessoires.
-Het project is gebouwd met HTML, CSS en JavaScript.
+---
 
-## Project beschrijving
-Deze website is een demo webshop met:
-- Trendy fashion layout
-- Product secties (streetwear, sneakers, accessoires)
-- Nieuwsbrief inschrijving
-- Contactformulier
+## 🌐 Over het project
+
+Deze webshop is een demo project met een moderne UI en interactieve functies zoals:
+
+- 🔎 Zoekfunctie
+- 🛒 Shop knop met login redirect
+- 🍪 Cookie banner (Ja/Nee)
+- 📩 Nieuwsbrief systeem
+- 💬 Contactformulier
+- 🎯 Categorieën & deals sectie
+
+---
+
+## 🚀 Features
+
+- Modern webshop design
 - Login pagina (simulatie)
-- Redirect systeem (shop → login → terug naar pagina)
+- Cookie toestemming systeem
+- Redirect systeem (Shop → Login → Shop sectie)
+- Responsive layout (mobiel & desktop)
+- Professionele UI stijl
 
-## Features
-- Responsive webshop design
-- Login pagina (demo)
-- Shop sectie met producten
-- Nieuwsbrief formulier
-- Contact formulier
-- Redirect systeem na login
-- Moderne UI stijl
+---
 
-## Bestanden structuur
-/project
-├── index.html
-├── login.html
-├── style.css
-├── script.js
-└── assets/
-    └── image1.png
+## 📁 Bestanden structuur
 
-## Hoe het werkt
-1. Klik op Shop → je gaat naar login pagina  
-2. Log in (demo)  
-3. Je wordt doorgestuurd naar de shop sectie  
-4. Nieuwsbrief en contact werken via redirect naar login  
+---
 
-## Technologieën
+## ⚙️ Hoe het werkt
+
+1. Open de website
+2. Cookie banner verschijnt → Ja of Nee
+3. Klik op **Shop**
+4. Je gaat eerst naar login pagina
+5. Na login word je doorgestuurd naar de shop sectie
+6. Nieuwsbrief en contact werken via formulier
+
+---
+
+## 🧠 Gebruikte technologieën
+
 - HTML5
 - CSS3
-- JavaScript (basic)
+- JavaScript (vanilla)
 
-## Disclaimer
-Dit is een demo project en geen echte webshop.
-Betalingen en accounts zijn niet actief.
+---
 
-## Auteur
-AMK-one project gemaakt als oefen webshop design.
-"""
+## ⚠️ Disclaimer
 
-file_path = Path("/mnt/data/README_AMK_one.md")
-file_path.write_text(content, encoding="utf-8")
+Dit is een demo project.  
+Geen echte betalingen of accounts zijn actief.
 
-file_path
+---
+
+## 👨‍💻 Auteur
+
+AMK-one – gemaakt als oefen project voor een moderne webshop.
